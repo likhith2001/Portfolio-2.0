@@ -26,6 +26,17 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    const handleMenuScroll = () => {
+      if (mobileOpen) {
+        setMobileOpen(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleMenuScroll);
+    return () => window.removeEventListener("scroll", handleMenuScroll);
+  }, [mobileOpen]);
+
   return (
     <motion.nav
       initial={{ y: -100 }}
