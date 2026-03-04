@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Linkedin, Instagram, Mail, FileText } from "lucide-react";
+import { Linkedin, Github, Mail, FileText } from "lucide-react";
 import profileImg from "@/assets/profile.jpg";
 
 const HeroSection = () => {
@@ -62,8 +62,8 @@ const HeroSection = () => {
               <a href="https://linkedin.com/in/likhith-varma-2001" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors p-2">
                 <Linkedin size={24} />
               </a>
-              <a href="https://www.instagram.com/likhith0102" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors p-2">
-                <Instagram size={24} />
+              <a href="https://github.com/likhith2001" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors p-2">
+                <Github size={24} />
               </a>
             </div>
 
@@ -88,8 +88,8 @@ const HeroSection = () => {
               <a href="https://linkedin.com/in/likhith-varma-2001" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center text-muted-foreground hover:text-primary transition-colors p-2">
                 <Linkedin size={28} />
               </a>
-              <a href="https://instagram.com/likhith0102" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center text-muted-foreground hover:text-primary transition-colors p-2">
-                <Instagram size={28} />
+              <a href="https://github.com/likhith2001" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center text-muted-foreground hover:text-primary transition-colors p-2">
+                <Github size={28} />
               </a>
             </div>
           </motion.div>
