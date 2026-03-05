@@ -35,7 +35,7 @@ const HeroSection = () => {
             </motion.div>
 
             <p className="text-muted-foreground text-base leading-relaxed mb-8 max-w-lg">
-              I'm a 💻 Results-Driven Data Professional & Software Developer with nearly 2 years of experience. Specialising in architecting automated data infrastructure, engineering robust ETL pipelines (during my time consulting for Uber), and building state-of-the-art AI frameworks like MAML-based deepfake detection. Currently completing my M.Sc. in Computer Science at Lakehead University 🎓.
+              I'm a 💻 Results-Driven Data Professional & Software Developer with 1+ years of experience. Specialising in architecting automated data infrastructure, engineering robust ETL pipelines (during my time consulting for Uber), and building state-of-the-art AI frameworks like MAML-based deepfake detection. Currently completing my M.Sc. in Computer Science at Lakehead University 🎓.
             </p>
             <p className="text-muted-foreground text-sm leading-relaxed mb-8 max-w-lg">
               All things Tech: Data Engineering. Data Analytics. Software Development. Yep, I do them all. <br />Let's build data-driven solutions that are not just scalable but also impactful.
