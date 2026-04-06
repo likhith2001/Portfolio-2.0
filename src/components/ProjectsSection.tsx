@@ -3,7 +3,7 @@ import { ExternalLink, Brain, BarChart3, Briefcase, Hospital, Rocket, Code2, Cal
 
 const projects = [
   {
-    title: "Continuous Multimodal Facial Authentication",
+    title: "Biometric Incoherence Detection and Meta-Learning for Deepfake-Resilient Authentication",
     period: "Sep 2025 - Apr 2026",
     context: "M.Sc. Research Project",
     icon: Brain,
