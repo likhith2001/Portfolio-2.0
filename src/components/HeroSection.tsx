@@ -44,7 +44,7 @@ const HeroSection = () => {
             {/* Buttons + socials — desktop: inline row */}
             <div className="hidden lg:flex flex-wrap items-center gap-3 mb-8">
               <a
-                href="/Likhith_Resume.pdf"
+                href="/Resume_Likhith.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium text-sm hover:opacity-90 transition-opacity"
