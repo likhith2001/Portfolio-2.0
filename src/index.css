@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -118,12 +118,6 @@
     @apply bg-card/60 border border-border/50 rounded-xl;
   }
 
-  /* Only apply backdrop-blur on non-mobile for performance */
-  @media (min-width: 768px) {
-    .glass-card {
-      @apply backdrop-blur-md;
-    }
-  }
 
   .glow-teal {
     box-shadow: 0 0 30px -5px hsl(175 45% 42% / 0.15);

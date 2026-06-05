@@ -3,64 +3,41 @@ import { ExternalLink, Brain, BarChart3, Briefcase, Hospital, Rocket, Code2, Cal
 
 const projects = [
   {
-    title: "Biometric Incoherence Detection and Meta-Learning for Deepfake-Resilient Authentication",
-    period: "Sep 2025 - Apr 2026",
-    context: "M.Sc. Research Project",
-    icon: Brain,
-    link: "https://github.com/likhith2001/Continuous-Multimodal-Facial-Authentication",
-    skills: ["Python", "FastAPI", "React.js", "Machine Learning", "Computer Vision"],
-    description:
-      "As part of my M.Sc. research at Lakehead University, I developed a continuous multimodal facial authentication system to combat real-time session hijacking and deepfakes.\n\nKey Highlights:\n- Architected a Two-Stream Fusion 3D-CNN and MAML-based few-shot learning framework using dense optical flow, achieving state-of-the-art deepfake detection accuracies of 100% on GRID, 98.11% on FaceForensics++, and 96.63% on MOBIO datasets. \n- Engineered a real-time full-stack verification system with a FastAPI backend and responsive frontend dashboard, enabling continuous webcam authentication via 3-second sliding windows and rapid biometric user adaptation in under 5 seconds.",
-  },
-  {
     title: "Uber GSS Ad-Ops",
     period: "Jan 2024 – Aug 2024",
-    context: "Nineleaps — Uber External Consultant",
+    context: "Nineleaps - Uber External Consultant",
     icon: BarChart3,
     link: "",
-    skills: ["Python", "SQL", "Tableau", "Google Sheets", "JIRA", "uWorc", "QueryBuilder", "Databook", "Sourcegraph"],
-    description:
-      "Operating as a consultant for Uber via Nineleaps, I focused on streamlining the backend architecture for Ads optimization and global revenue tracking.\n\nKey Highlights:\n- Engineered complex SQL queries to process millions of rows of global revenue data, architecting high-performance dashboards that enabled real-time tracking of Ads metrics for stakeholders worldwide.\n- Managed end-to-end data pipeline automations and resolved critical system bugs, ensuring 100% uptime for business critical reporting tools during active maintenance and support phases.",
+    skills: ["Python", "SQL", "Tableau", "JIRA", "QueryBuilder", "uWorc"],
+    description: "- Addressed global revenue tracking gaps and backend crashes affecting business-critical reporting.\n- Enhanced complex Python-SQL pipelines designed to handle massive global data volumes.\n- Resolved critical system bugs via JIRA to eliminate reporting tool latency.\n- Processed 100K+ daily records, ensuring 100% platform uptime for vital BI tools."
   },
   {
     title: "Uber GSS Rider Analytics",
     period: "Jul 2023 – Oct 2023",
-    context: "Nineleaps — Uber External Consultant",
+    context: "Nineleaps - Uber External Consultant",
     icon: BarChart3,
     link: "",
-    skills: ["Python", "SQL", "GCP", "Tableau", "Google Sheets", "uWorc", "QueryBuilder", "Databook"],
-    description:
-      "I contributed to the 'InSA Rides Ops Analytics' project at Uber, focusing on optimizing ride operations and managing ride arrears across India, Sri Lanka, and Bangladesh.\n\nKey Highlights:\n- Architected and deployed regional data automations for the InSA region, optimizing rider operations and reducing ride arrears through the delivery of high-accuracy revenue metrics.\n- Facilitated continuous system improvements by executing technical bug fixes and fulfilling ad-hoc data requests, directly supporting regional stakeholders in data-driven operational scaling.",
+    skills: ["Python", "SQL", "Tableau", "JIRA", "QueryBuilder", "uWorc"],
+    description: "- Tackled regional inefficiencies in ride operations and arrears management across the InSA region.\n- Architected and deployed regional data automations to deliver high-accuracy revenue metrics.\n- Executed technical bug fixes to fulfill ad-hoc data requests for regional stakeholders.\n- Optimized rider operations and significantly reduced ride arrears to support scaling."
   },
   {
-    title: "Jobtrix — Job Portal Application",
+    title: "Deepfake-Resilient Authentication",
+    period: "Sep 2025 - Apr 2026",
+    context: "M.Sc. Research Project",
+    icon: Brain,
+    link: "https://github.com/likhith2001/Biometric-Incoherence-Detection-and-Meta-Learning-for-Deepfake-Resilient-Authentication",
+    skills: ["PyTorch", "FastAPI", "React.js", "3D-CNNs", "MAML", "WebRTC"],
+    description: "- Addressed system vulnerabilities to synthetic media threats and high latency verification bottlenecks.\n- Constructed a PyTorch 3D-CNN framework (MAML-based) to counter deepfake attacks.\n- Integrated a FastAPI backend utilizing WebRTC to optimize real-time processing speeds.\n- Achieved up to 100% biometric accuracy and reduced verification times to sub-5 seconds."
+  },
+  {
+    title: "Jobtrix - AI-Powered Job Portal",
     period: "Nov 2022 - May 2023",
     context: "RNSIT - Academic Project",
     icon: Briefcase,
     link: "https://github.com/likhith2001/JOBTRIX-A-Job-Portal-Application",
-    skills: ["Python", "MySQL", "XGBoost", "Flask", "HTML", "CSS", "JavaScript"],
-    description:
-      "Collaborated within a development team to build an AI-powered job recommendation platform designed to match users with highly relevant roles based on in-depth skillset analysis.\n\nKey Highlights:\n- Co-engineered the full-stack architecture, utilizing a Flask REST API backend to integrate a custom XGBoost machine learning model for accurate skillset matching.\n- Contributed to an automated data ingestion pipeline using Python Requests to scrape, clean continuously, and load live job postings into a MySQL database, ensuring real-time dataset accuracy.",
-  },
-  {
-    title: "Care and Cure — Hospital Management",
-    period: "Aug 2022 - Sep 2022",
-    context: "TechieAid — Internship Project",
-    icon: Hospital,
-    link: "https://github.com/likhith2001/CareAndCure",
-    skills: ["ASP.NET", "C#", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
-    description:
-      "Co-developed Care and Cure, a comprehensive online hospital management system, within a two-person development team during my TechieAid Full Stack Internship.\n\nKey Highlights:\n- Co-engineered a scalable full-stack web application utilizing ASP.NET Core MVC (C#) and MySQL, facilitating a seamless online booking experience capable of handling 50+ doctors and 500+ patient appointments.\n- Collaborated to design and implement secure, role-based access portals (Admin, Doctor, Patient) and an intuitive frontend UI, which drove a 35% improvement in registration-to-appointment conversion rates compared to legacy manual systems.",
-  },
-  // {
-  //   title: "Project Title — Coming Soon",
-  //   period: "TBD",
-  //   context: "Personal Project",
-  //   icon: Code2,
-  //   link: "https://github.com/likhith2001",
-  //   skills: ["TBD"],
-  //   description: "Sample project description. Update this with your actual project details and tech stack used.",
-  // },
+    skills: ["Python", "Flask REST API", "MySQL", "XGBoost", "Requests"],
+    description: "- Solved inaccurate job mismatching for students and manual data entry bottlenecks for job postings.\n- Programmed a Flask/XGBoost REST API to enable highly accurate skillset matching.\n- Automated a Python Requests web scraping pipeline to continuously ingest live job data.\n- Generated tailored ATS resumes for 500+ students and loaded 1,000+ postings with 95% precision."
+  }
 ];
 
 const ProjectsSection = () => (
@@ -78,12 +55,8 @@ const ProjectsSection = () => (
       className="space-y-4"
     >
       {projects.map((project, i) => (
-        <motion.div
+        <div
           key={i}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.3, delay: i * 0.08 }}
           className="glass-card p-5 hover-lift"
         >
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
@@ -151,7 +124,7 @@ const ProjectsSection = () => (
               })}
             </div>
           )}
-        </motion.div>
+        </div>
       ))}
     </motion.div>
   </section>

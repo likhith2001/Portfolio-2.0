@@ -30,16 +30,31 @@ const HeroSection = () => {
               className="flex justify-center mb-8 md:hidden"
             >
               <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-full overflow-hidden border-2 border-primary/20 relative z-20 isolate">
-                  <img src={profileImg} alt="Likhith Varma" className="w-full h-full object-cover" />
-                </div>
+                <img src={profileImg} alt="Likhith Varma" className="w-full h-full object-cover" width={288} height={288} loading="eager" />
+              </div>
             </motion.div>
 
-            <p className="text-muted-foreground text-base leading-relaxed mb-8 max-w-lg">
-              I'm a 💻 Results-Driven Data Professional & Software Developer with 1.5 years of experience. Specialising in architecting automated data infrastructure, engineering robust ETL pipelines (during my time consulting for Uber), and building state-of-the-art AI frameworks like MAML-based deepfake detection. Currently completing my M.Sc. in Computer Science at Lakehead University 🎓.
+            <p className="text-muted-foreground text-base leading-relaxed mb-6 max-w-lg">
+              I'm a Results-Driven Data Professional with an M.Sc. in Computer Science. I leverage data modeling expertise to build scalable ETL pipelines and cutting-edge machine learning frameworks.
             </p>
-            <p className="text-muted-foreground text-sm leading-relaxed mb-8 max-w-lg">
-              All things Tech: Data Engineering. Data Analytics. Software Development. Yep, I do them all. <br />Let's build data-driven solutions that are not just scalable but also impactful.
+            <p className="text-muted-foreground text-sm leading-relaxed mb-6 max-w-lg">
+              My experience spans from building automated data infrastructure at Uber (processing 100K+ daily records) to driving operational efficiency at Belluz Concrete & Rentals. I specialize in Python, Advanced SQL, and BI to transform complex datasets into strategic insights.
             </p>
+
+            <div className="flex flex-col gap-2 mb-8 p-4 rounded-xl bg-primary/5 border border-primary/10 w-fit">
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🎓</span>
+                <span className="text-sm font-semibold text-foreground">M.Sc. Computer Science (94.33% CGPA)</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🥇</span>
+                <span className="text-sm font-medium text-muted-foreground">Governor-General's Gold Medal</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🏆</span>
+                <span className="text-sm font-medium text-muted-foreground">Dean's Scholar Award</span>
+              </div>
+            </div>
 
             {/* Buttons + socials — desktop: inline row */}
             <div className="hidden lg:flex flex-wrap items-center gap-3 mb-8">
@@ -102,7 +117,7 @@ const HeroSection = () => {
             className="hidden md:flex justify-center"
           >
             <div className="w-80 lg:w-96 rounded-2xl overflow-hidden border-2 border-primary/20">
-              <img src={profileImg} alt="Likhith Varma" className="w-full h-auto object-cover" />
+              <img src={profileImg} alt="Likhith Varma" className="w-full h-auto object-cover" width={384} height={384} loading="eager" />
             </div>
           </motion.div>
         </div>
