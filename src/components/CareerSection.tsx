@@ -23,7 +23,7 @@ const experience = [
     description: "- Bridged critical student knowledge gaps in complex cloud architectures and machine learning concepts.\n- Organized targeted consultations for 50+ students, providing rapid debugging support to overcome technical roadblocks.\n- Administered technical assessments while delivering timely, constructive feedback on complex coding projects.\n- Improved overall class performance and learning outcomes by 30% via proactive academic mentoring."
   },
   {
-    period: "Feb 2023 – Aug 2024",
+    period: "Jul 2023 – Aug 2024",
     title: "Data Engineer & Analyst",
     place: "Uber Technologies Inc. (via Nineleaps Technology Solutions), Bangalore, India",
     description: "- Eliminated global analytical lag by architecting 10+ scalable ETL pipelines using Python, MySQL, and GCP.\n- Engineered high-performance backend SQL queries to seamlessly process millions of rows and update 100K+ daily records.\n- Troubleshot and resolved critical system bugs via JIRA to prevent data bottlenecks and guarantee 100% reporting uptime.\n- Achieved >98% real-time data accuracy, driving a 20% surge in overall global reporting efficiency."
@@ -35,16 +35,16 @@ const experience = [
     description: "- Tackled large-scale data fragmentation by optimizing analytical workflows across Hadoop and BigQuery environments.\n- Managed and analyzed complex enterprise datasets efficiently by leveraging Google Cloud Storage architecture.\n- Deployed scalable applications via Google App Engine to eradicate underlying infrastructure bottlenecks.\n- Designed interactive Looker Studio dashboards to successfully present actionable, data-driven business insights."
   },
   {
-    period: "Aug 2022 – Sep 2022",
-    title: "Full Stack Developer Intern",
+    period: "Jul 2022 – Sep 2022",
+    title: "Full Stack Developer",
     place: "TechieAid, India",
-    description: "- Modernized legacy manual patient booking workflows that were previously limiting healthcare accessibility.\n- Built a scalable full-stack web application using ASP.NET Core MVC and MySQL to facilitate seamless online scheduling.\n- Implemented secure authentication and an intuitive UI capable of smoothly handling 50+ doctors and 500+ appointments.\n- Drove a 35% improvement in registration-to-appointment conversion rates by enhancing the online user experience."
+    description: "- Modernized and streamlined legacy MySQL database systems to resolve backend inefficiencies and enhance overall application performance.\n- Applied advanced database design concepts, meticulously utilizing Entity-Relationship Diagram (ERD) modeling to restructure data architecture.\n- Implemented Third Normal Form (3NF) principles to eliminate data redundancy and ensure strict data integrity across the platform.\n- Successfully engineered backend optimizations that directly enabled and supported stable booking capabilities for over 500 users."
   },
   {
     period: "Jun 2021 – Aug 2021",
-    title: "ML Intern",
+    title: "Machine Learning Specialist",
     place: "Knowledge Solutions India, India",
-    description: "- Overcame manual analytical limitations by evaluating massive educational performance datasets containing 1,000+ metrics.\n- Programmed a precise K-Means clustering model to successfully forecast institutional graduation trends with 87% accuracy.\n- Developed a comprehensive Logistic Regression framework to automate the evaluation of complex heart disease models.\n- Attained an 89% classification accuracy in predicting and mitigating patient health risks across diverse datasets."
+    description: "- Spearheaded the design and development of predictive machine learning models to anticipate and map out shifting business trends.\n- Identified and resolved critical analytical bottlenecks that were previously hindering the organization's data pipelines.\n- Engineered robust trend-forecasting solutions that successfully achieved a highly reliable 87% accuracy rate.\n- Transformed complex business data into actionable foresight, enabling the team to make proactive, data-driven decisions."
   },
 ];
 
